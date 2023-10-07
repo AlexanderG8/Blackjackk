@@ -12,32 +12,24 @@
 
     <div class="row mt-2">
         <div class="col text-center">
-            <button class="btn btn-danger">Nuevo juego</button>
-            <button class="btn btn-success">Pedir carta</button>
-            <button class="btn btn-primary">Detener</button>
+            <button id="btnNuevo" class="btn btn-danger">Nuevo juego</button>
+            <button id="btnPedir" class="btn btn-success">Pedir carta</button>
+            <button id="btnDetener" class="btn btn-primary">Detener</button>
         </div>
     </div>
 
     <div class="row container">
         <div class="col">
-            <h1>Jugador - <mall>0</mall></h1>
+            <h1>Jugador - <small>0</small></h1>
             <div id="jugador-cartas">
-                <img class="carta" src="assets/cartas/2C.png" alt="">
-                <img class="carta" src="assets/cartas/2C.png" alt="">
-                <img class="carta" src="assets/cartas/2C.png" alt="">
-                <img class="carta" src="assets/cartas/2C.png" alt="">
             </div>
         </div>
     </div>
 
     <div class="row container mt-2">
         <div class="col">
-            <h1>Computadora - <mall>0</mall></h1>
+            <h1>Computadora - <small>0</small></h1>
             <div id="computadora-cartas">
-                <img class="carta" src="assets/cartas/3C.png" alt="">
-                <img class="carta" src="assets/cartas/3C.png" alt="">
-                <img class="carta" src="assets/cartas/3C.png" alt="">
-                <img class="carta" src="assets/cartas/3C.png" alt="">
             </div>
         </div>
     </div>
@@ -45,5 +37,6 @@
 
     <script src="assets/js/underscore-min.js"></script>
     <script src="assets/js/juego.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
